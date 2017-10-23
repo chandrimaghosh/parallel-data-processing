@@ -1,0 +1,60 @@
+2017-10-08T18:52:57.729Z INFO Ensure step 2 jar file s3://inmapper/mapper-0.0.1-SNAPSHOT.jar
+2017-10-08T18:52:59.852Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-21RLH9XT4FW4V/mapper-0.0.1-SNAPSHOT.jar InMapper.mapper.InMapperDriver s3://inmapper/input s3://inmapper/output'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-21RLH9XT4FW4V/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  PYTHON_INSTALL_LAYOUT=amzn
+  HOSTNAME=ip-172-31-9-105
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-21RLH9XT4FW4V
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-21RLH9XT4FW4V/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-21RLH9XT4FW4V/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-21RLH9XT4FW4V
+INFO ProcessRunner started child process 8296 :
+hadoop    8296  3995  0 18:53 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-21RLH9XT4FW4V/mapper-0.0.1-SNAPSHOT.jar InMapper.mapper.InMapperDriver s3://inmapper/input s3://inmapper/output
+2017-10-08T18:53:03.904Z INFO HadoopJarStepRunner.Runner: startRun() called for s-21RLH9XT4FW4V Child Pid: 8296
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-21RLH9XT...
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-21RLH9XT...
+INFO total process run time: 68 seconds
+2017-10-08T18:54:10.458Z INFO Step created jobs: job_1507488669046_0001
+2017-10-08T18:54:10.459Z INFO Step succeeded with exitCode 0 and took 68 seconds

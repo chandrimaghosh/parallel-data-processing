@@ -1,0 +1,1 @@
+CS 6240-01HW2Chandrima GhoshDeliverables:Report:Report_Assignment.pdfAws execution controller and syslog:SourceCode/AttemptAws result file: Inside SourceCode/AttemptSource code: Inmapper,Combiner,NoCombiner,SecondarySortRun Instructions:Kindly run each programs Make alone and Make cloud to run each program in standalone and on aws.
